@@ -39,12 +39,31 @@ h1 + p {
     font-size: 1.55rem;
     line-height: 1.75rem;
 }
-    
-    
-    
-    
-    
-    
-    
-    
-    
+
+strong {
+    font-weight: bold;
+}
+
+em {
+    font-style: italic;
+}
+
+hr{
+    border: solid 4px #F00;
+}
+
+ul,
+ol {
+    background-color: #FFF;
+}
+
+li{
+    color: #F00;
+}
+
+ol li:first-child {
+    background-color: #000;
+}
+ol li:last-child {
+    background-color: #F90;
+}
